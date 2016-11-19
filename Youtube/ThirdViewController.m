@@ -9,7 +9,9 @@
 #import "ThirdViewController.h"
 #import "CategoriesViewController.h"
 
+
 @interface ThirdViewController ()
+@property (strong, nonatomic) IBOutlet UIView *likeNavigationBar;
 
 @end
 
@@ -17,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.likeNavigationBar.backgroundColor=[UIColor colorWithRed:29/255.0 green:29/255.0 blue:29/255.0 alpha:1];
     // Do any additional setup after loading the view.
 }
 
@@ -30,7 +33,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)menu:(UIBarButtonItem *)sender {
+- (IBAction)menuButton:(UIButton *)sender {
     
     UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
     CategoriesViewController *categoriesVC=[story instantiateViewControllerWithIdentifier:@"categoriesVC"];
