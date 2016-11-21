@@ -1,41 +1,27 @@
 //
-//  CategoriesViewController.m
+//  TagViewController.m
 //  Youtube
 //
-//  Created by Madu Venkata Dinesh Goud on 18/11/16.
+//  Created by Madu Venkata Dinesh Goud on 21/11/16.
 //  Copyright © 2016 Madu Venkata Dinesh Goud. All rights reserved.
 //
 
-#import "CategoriesViewController.h"
+#import "TagViewController.h"
 
-@interface CategoriesViewController ()
-@property (strong, nonatomic) IBOutlet UIView *likeNavigationBar;
+@interface TagViewController ()
 
 @end
 
-@implementation CategoriesViewController
+@implementation TagViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.likeNavigationBar.backgroundColor=[UIColor colorWithRed:29/255.0 green:29/255.0 blue:29/255.0 alpha:1];
     // Do any additional setup after loading the view.
 }
-
-
-
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)backButton:(UIButton *)sender {
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

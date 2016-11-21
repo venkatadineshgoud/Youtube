@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  TagViewController.h
 //  Youtube
 //
 //  Created by Madu Venkata Dinesh Goud on 21/11/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface TagViewController : UIViewController
 
 @end

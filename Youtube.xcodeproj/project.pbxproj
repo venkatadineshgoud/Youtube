@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D00EC9F1DDF6DAF009DE873 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D00EC9E1DDF6DAF009DE873 /* CategoriesViewController.m */; };
+		6D3F3FB11DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F3FB01DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */; };
+		6D3F3FB61DE2E00500D5AF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F3FB31DE2E00500D5AF99 /* Main.storyboard */; };
+		6D3F3FB71DE2E00500D5AF99 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F3FB51DE2E00500D5AF99 /* TabBarController.m */; };
 		6DA5E9A71DDF323400F3D980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9A61DDF323400F3D980 /* main.m */; };
 		6DA5E9AA1DDF323400F3D980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9A91DDF323400F3D980 /* AppDelegate.m */; };
-		6DA5E9B31DDF323400F3D980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9B11DDF323400F3D980 /* Main.storyboard */; };
 		6DA5E9B51DDF323400F3D980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9B41DDF323400F3D980 /* Assets.xcassets */; };
 		6DA5E9B81DDF323400F3D980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */; };
 		6DA5E9C31DDF323400F3D980 /* YoutubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9C21DDF323400F3D980 /* YoutubeTests.m */; };
 		6DA5E9CE1DDF323500F3D980 /* YoutubeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9CD1DDF323500F3D980 /* YoutubeUITests.m */; };
-		6DA5E9E01DDF354900F3D980 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9DF1DDF354900F3D980 /* HomeViewController.m */; };
-		6DA5E9E31DDF357C00F3D980 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9E21DDF357C00F3D980 /* ProfileViewController.m */; };
-		6DA5E9E61DDF369D00F3D980 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9E51DDF369D00F3D980 /* ThirdViewController.m */; };
-		6DA5E9E91DDF377100F3D980 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9E81DDF377100F3D980 /* FourthViewController.m */; };
+		6DC4F8061DE2E79E000F9C5B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F8051DE2E79E000F9C5B /* HomeViewController.m */; };
+		6DC4F8091DE2E7B9000F9C5B /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F8081DE2E7B9000F9C5B /* TagViewController.m */; };
+		6DC4F80C1DE2E7C7000F9C5B /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */; };
+		6DC4F80F1DE2E7D4000F9C5B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D00EC9D1DDF6DAF009DE873 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
-		6D00EC9E1DDF6DAF009DE873 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		6D3F3FAF1DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.h"; sourceTree = "<group>"; };
+		6D3F3FB01DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.m"; sourceTree = "<group>"; };
+		6D3F3FB21DE2E00500D5AF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D3F3FB41DE2E00500D5AF99 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = "../../BIZSelectedBackgroundForTabBarItem-master/Project/Example/TabBarController.h"; sourceTree = "<group>"; };
+		6D3F3FB51DE2E00500D5AF99 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = "../../BIZSelectedBackgroundForTabBarItem-master/Project/Example/TabBarController.m"; sourceTree = "<group>"; };
 		6DA5E9A21DDF323300F3D980 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA5E9A61DDF323400F3D980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DA5E9A81DDF323400F3D980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DA5E9A91DDF323400F3D980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DA5E9B21DDF323400F3D980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DA5E9B41DDF323400F3D980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DA5E9B71DDF323400F3D980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA5E9B91DDF323400F3D980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,14 +58,14 @@
 		6DA5E9C91DDF323500F3D980 /* YoutubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA5E9CD1DDF323500F3D980 /* YoutubeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeUITests.m; sourceTree = "<group>"; };
 		6DA5E9CF1DDF323500F3D980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA5E9DE1DDF354900F3D980 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		6DA5E9DF1DDF354900F3D980 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		6DA5E9E11DDF357C00F3D980 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		6DA5E9E21DDF357C00F3D980 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		6DA5E9E41DDF369D00F3D980 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		6DA5E9E51DDF369D00F3D980 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		6DA5E9E71DDF377100F3D980 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
-		6DA5E9E81DDF377100F3D980 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		6DC4F8041DE2E79E000F9C5B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6DC4F8051DE2E79E000F9C5B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6DC4F8071DE2E7B9000F9C5B /* TagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewController.h; sourceTree = "<group>"; };
+		6DC4F8081DE2E7B9000F9C5B /* TagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewController.m; sourceTree = "<group>"; };
+		6DC4F80A1DE2E7C7000F9C5B /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		6DC4F80D1DE2E7D4000F9C5B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,19 +116,21 @@
 		6DA5E9A41DDF323400F3D980 /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
+				6D3F3FAF1DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */,
+				6D3F3FB01DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */,
 				6DA5E9A81DDF323400F3D980 /* AppDelegate.h */,
 				6DA5E9A91DDF323400F3D980 /* AppDelegate.m */,
-				6DA5E9DE1DDF354900F3D980 /* HomeViewController.h */,
-				6DA5E9DF1DDF354900F3D980 /* HomeViewController.m */,
-				6DA5E9E41DDF369D00F3D980 /* ThirdViewController.h */,
-				6DA5E9E51DDF369D00F3D980 /* ThirdViewController.m */,
-				6DA5E9E71DDF377100F3D980 /* FourthViewController.h */,
-				6DA5E9E81DDF377100F3D980 /* FourthViewController.m */,
-				6DA5E9E11DDF357C00F3D980 /* ProfileViewController.h */,
-				6DA5E9E21DDF357C00F3D980 /* ProfileViewController.m */,
-				6D00EC9D1DDF6DAF009DE873 /* CategoriesViewController.h */,
-				6D00EC9E1DDF6DAF009DE873 /* CategoriesViewController.m */,
-				6DA5E9B11DDF323400F3D980 /* Main.storyboard */,
+				6D3F3FB41DE2E00500D5AF99 /* TabBarController.h */,
+				6D3F3FB51DE2E00500D5AF99 /* TabBarController.m */,
+				6DC4F8041DE2E79E000F9C5B /* HomeViewController.h */,
+				6DC4F8051DE2E79E000F9C5B /* HomeViewController.m */,
+				6DC4F8071DE2E7B9000F9C5B /* TagViewController.h */,
+				6DC4F8081DE2E7B9000F9C5B /* TagViewController.m */,
+				6DC4F80A1DE2E7C7000F9C5B /* UploadViewController.h */,
+				6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */,
+				6DC4F80D1DE2E7D4000F9C5B /* ProfileViewController.h */,
+				6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */,
+				6D3F3FB31DE2E00500D5AF99 /* Main.storyboard */,
 				6DA5E9B41DDF323400F3D980 /* Assets.xcassets */,
 				6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */,
 				6DA5E9B91DDF323400F3D980 /* Info.plist */,
@@ -269,9 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3F3FB61DE2E00500D5AF99 /* Main.storyboard in Resources */,
 				6DA5E9B81DDF323400F3D980 /* LaunchScreen.storyboard in Resources */,
 				6DA5E9B51DDF323400F3D980 /* Assets.xcassets in Resources */,
-				6DA5E9B31DDF323400F3D980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,13 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA5E9E91DDF377100F3D980 /* FourthViewController.m in Sources */,
+				6DC4F80C1DE2E7C7000F9C5B /* UploadViewController.m in Sources */,
 				6DA5E9AA1DDF323400F3D980 /* AppDelegate.m in Sources */,
-				6DA5E9E61DDF369D00F3D980 /* ThirdViewController.m in Sources */,
-				6D00EC9F1DDF6DAF009DE873 /* CategoriesViewController.m in Sources */,
+				6DC4F80F1DE2E7D4000F9C5B /* ProfileViewController.m in Sources */,
+				6D3F3FB71DE2E00500D5AF99 /* TabBarController.m in Sources */,
+				6D3F3FB11DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */,
+				6DC4F8091DE2E7B9000F9C5B /* TagViewController.m in Sources */,
+				6DC4F8061DE2E79E000F9C5B /* HomeViewController.m in Sources */,
 				6DA5E9A71DDF323400F3D980 /* main.m in Sources */,
-				6DA5E9E31DDF357C00F3D980 /* ProfileViewController.m in Sources */,
-				6DA5E9E01DDF354900F3D980 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,12 +344,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6DA5E9B11DDF323400F3D980 /* Main.storyboard */ = {
+		6D3F3FB31DE2E00500D5AF99 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6DA5E9B21DDF323400F3D980 /* Base */,
+				6D3F3FB21DE2E00500D5AF99 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../../BIZSelectedBackgroundForTabBarItem-master/Project/Example";
 			sourceTree = "<group>";
 		};
 		6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */ = {

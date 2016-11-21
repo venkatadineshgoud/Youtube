@@ -2,15 +2,13 @@
 //  ProfileViewController.m
 //  Youtube
 //
-//  Created by Madu Venkata Dinesh Goud on 18/11/16.
+//  Created by Madu Venkata Dinesh Goud on 21/11/16.
 //  Copyright © 2016 Madu Venkata Dinesh Goud. All rights reserved.
 //
 
 #import "ProfileViewController.h"
-#import "CategoriesViewController.h"
 
 @interface ProfileViewController ()
-@property (strong, nonatomic) IBOutlet UIView *likeNavigationBar;
 
 @end
 
@@ -18,25 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.likeNavigationBar.backgroundColor=[UIColor colorWithRed:29/255.0 green:29/255.0 blue:29/255.0 alpha:1];
     // Do any additional setup after loading the view.
 }
-
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)menuButton:(id)sender {
-    
-    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    CategoriesViewController *categoriesVC=[story instantiateViewControllerWithIdentifier:@"categoriesVC"];
-    [self presentViewController:categoriesVC animated:NO completion:nil];
 }
 
 /*

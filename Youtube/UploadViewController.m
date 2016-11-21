@@ -1,18 +1,18 @@
 //
-//  HomeViewController.m
+//  UploadViewController.m
 //  Youtube
 //
 //  Created by Madu Venkata Dinesh Goud on 21/11/16.
 //  Copyright © 2016 Madu Venkata Dinesh Goud. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "UploadViewController.h"
 
-@interface HomeViewController ()
+@interface UploadViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation UploadViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
