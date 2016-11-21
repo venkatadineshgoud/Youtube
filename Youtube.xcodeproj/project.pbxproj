@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6D3F3FB11DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F3FB01DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */; };
-		6D3F3FB61DE2E00500D5AF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F3FB31DE2E00500D5AF99 /* Main.storyboard */; };
-		6D3F3FB71DE2E00500D5AF99 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F3FB51DE2E00500D5AF99 /* TabBarController.m */; };
 		6DA5E9A71DDF323400F3D980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9A61DDF323400F3D980 /* main.m */; };
 		6DA5E9AA1DDF323400F3D980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9A91DDF323400F3D980 /* AppDelegate.m */; };
 		6DA5E9B51DDF323400F3D980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9B41DDF323400F3D980 /* Assets.xcassets */; };
@@ -20,6 +18,8 @@
 		6DC4F8091DE2E7B9000F9C5B /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F8081DE2E7B9000F9C5B /* TagViewController.m */; };
 		6DC4F80C1DE2E7C7000F9C5B /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */; };
 		6DC4F80F1DE2E7D4000F9C5B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */; };
+		6DC4F8121DE2F96E000F9C5B /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F8111DE2F96E000F9C5B /* TabBarController.m */; };
+		6DC4F8171DE2FA6A000F9C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC4F8161DE2FA6A000F9C5B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,6 @@
 /* Begin PBXFileReference section */
 		6D3F3FAF1DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.h"; sourceTree = "<group>"; };
 		6D3F3FB01DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.m"; sourceTree = "<group>"; };
-		6D3F3FB21DE2E00500D5AF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D3F3FB41DE2E00500D5AF99 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = "../../BIZSelectedBackgroundForTabBarItem-master/Project/Example/TabBarController.h"; sourceTree = "<group>"; };
-		6D3F3FB51DE2E00500D5AF99 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = "../../BIZSelectedBackgroundForTabBarItem-master/Project/Example/TabBarController.m"; sourceTree = "<group>"; };
 		6DA5E9A21DDF323300F3D980 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA5E9A61DDF323400F3D980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DA5E9A81DDF323400F3D980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +63,9 @@
 		6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
 		6DC4F80D1DE2E7D4000F9C5B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6DC4F8101DE2F96E000F9C5B /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		6DC4F8111DE2F96E000F9C5B /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		6DC4F8161DE2FA6A000F9C5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				6D3F3FB01DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */,
 				6DA5E9A81DDF323400F3D980 /* AppDelegate.h */,
 				6DA5E9A91DDF323400F3D980 /* AppDelegate.m */,
-				6D3F3FB41DE2E00500D5AF99 /* TabBarController.h */,
-				6D3F3FB51DE2E00500D5AF99 /* TabBarController.m */,
+				6DC4F8101DE2F96E000F9C5B /* TabBarController.h */,
+				6DC4F8111DE2F96E000F9C5B /* TabBarController.m */,
 				6DC4F8041DE2E79E000F9C5B /* HomeViewController.h */,
 				6DC4F8051DE2E79E000F9C5B /* HomeViewController.m */,
 				6DC4F8071DE2E7B9000F9C5B /* TagViewController.h */,
@@ -130,7 +130,7 @@
 				6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */,
 				6DC4F80D1DE2E7D4000F9C5B /* ProfileViewController.h */,
 				6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */,
-				6D3F3FB31DE2E00500D5AF99 /* Main.storyboard */,
+				6DC4F8161DE2FA6A000F9C5B /* Main.storyboard */,
 				6DA5E9B41DDF323400F3D980 /* Assets.xcassets */,
 				6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */,
 				6DA5E9B91DDF323400F3D980 /* Info.plist */,
@@ -274,7 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3F3FB61DE2E00500D5AF99 /* Main.storyboard in Resources */,
+				6DC4F8171DE2FA6A000F9C5B /* Main.storyboard in Resources */,
 				6DA5E9B81DDF323400F3D980 /* LaunchScreen.storyboard in Resources */,
 				6DA5E9B51DDF323400F3D980 /* Assets.xcassets in Resources */,
 			);
@@ -304,9 +304,9 @@
 				6DC4F80C1DE2E7C7000F9C5B /* UploadViewController.m in Sources */,
 				6DA5E9AA1DDF323400F3D980 /* AppDelegate.m in Sources */,
 				6DC4F80F1DE2E7D4000F9C5B /* ProfileViewController.m in Sources */,
-				6D3F3FB71DE2E00500D5AF99 /* TabBarController.m in Sources */,
 				6D3F3FB11DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */,
 				6DC4F8091DE2E7B9000F9C5B /* TagViewController.m in Sources */,
+				6DC4F8121DE2F96E000F9C5B /* TabBarController.m in Sources */,
 				6DC4F8061DE2E79E000F9C5B /* HomeViewController.m in Sources */,
 				6DA5E9A71DDF323400F3D980 /* main.m in Sources */,
 			);
@@ -344,15 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D3F3FB31DE2E00500D5AF99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D3F3FB21DE2E00500D5AF99 /* Base */,
-			);
-			name = Main.storyboard;
-			path = "../../BIZSelectedBackgroundForTabBarItem-master/Project/Example";
-			sourceTree = "<group>";
-		};
 		6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
