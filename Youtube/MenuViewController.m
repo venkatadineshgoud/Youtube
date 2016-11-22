@@ -1,37 +1,42 @@
 //
-//  ProfileViewController.m
+//  MenuViewController.m
 //  Youtube
 //
 //  Created by Madu Venkata Dinesh Goud on 21/11/16.
 //  Copyright © 2016 Madu Venkata Dinesh Goud. All rights reserved.
 //
 
-#import "ProfileViewController.h"
 #import "MenuViewController.h"
 
-@interface ProfileViewController ()
-@property (strong, nonatomic) IBOutlet UIView *likenavigationBar;
+@interface MenuViewController ()
+
+
+@property (strong, nonatomic) IBOutlet UIView *likeNavigationBar;
+
+
+
 
 @end
 
-@implementation ProfileViewController
+@implementation MenuViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.likenavigationBar.backgroundColor=[UIColor colorWithRed:29/255.0 green:29/255.0 blue:29/255.0 alpha:1];
+    self.likeNavigationBar.backgroundColor=[UIColor colorWithRed:29/255.0 green:29/255.0 blue:29/255.0 alpha:1];
+    self.view.backgroundColor=[UIColor colorWithRed:14/255.0 green:14/255.0 blue:14/255.0 alpha:1];
+    
     // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)menuButton:(UIButton *)sender {
+- (IBAction)backButton:(UIButton *)sender {
     
-    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    MenuViewController *menuVC=[story instantiateViewControllerWithIdentifier:@"menuVC"];
-    [self presentViewController:menuVC animated:NO completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

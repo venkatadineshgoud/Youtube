@@ -7,8 +7,10 @@
 //
 
 #import "UploadViewController.h"
+#import "MenuViewController.h"
 
 @interface UploadViewController ()
+@property (strong, nonatomic) IBOutlet UIView *likenavigationBar;
 
 @end
 
@@ -16,12 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.likenavigationBar.backgroundColor=[UIColor colorWithRed:29/255.0 green:29/255.0 blue:29/255.0 alpha:1];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)menuButton:(UIButton *)sender {
+    
+    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    MenuViewController *menuVC=[story instantiateViewControllerWithIdentifier:@"menuVC"];
+    [self presentViewController:menuVC animated:NO completion:nil];
 }
 
 /*

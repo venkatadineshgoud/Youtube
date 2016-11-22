@@ -14,6 +14,7 @@
 		6DA5E9B81DDF323400F3D980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */; };
 		6DA5E9C31DDF323400F3D980 /* YoutubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9C21DDF323400F3D980 /* YoutubeTests.m */; };
 		6DA5E9CE1DDF323500F3D980 /* YoutubeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9CD1DDF323500F3D980 /* YoutubeUITests.m */; };
+		6DBC5E551DE3486000A05EAA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBC5E541DE3486000A05EAA /* MenuViewController.m */; };
 		6DC4F8061DE2E79E000F9C5B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F8051DE2E79E000F9C5B /* HomeViewController.m */; };
 		6DC4F8091DE2E7B9000F9C5B /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F8081DE2E7B9000F9C5B /* TagViewController.m */; };
 		6DC4F80C1DE2E7C7000F9C5B /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */; };
@@ -55,6 +56,8 @@
 		6DA5E9C91DDF323500F3D980 /* YoutubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA5E9CD1DDF323500F3D980 /* YoutubeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeUITests.m; sourceTree = "<group>"; };
 		6DA5E9CF1DDF323500F3D980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBC5E531DE3486000A05EAA /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		6DBC5E541DE3486000A05EAA /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		6DC4F8041DE2E79E000F9C5B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		6DC4F8051DE2E79E000F9C5B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6DC4F8071DE2E7B9000F9C5B /* TagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewController.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				6DC4F80B1DE2E7C7000F9C5B /* UploadViewController.m */,
 				6DC4F80D1DE2E7D4000F9C5B /* ProfileViewController.h */,
 				6DC4F80E1DE2E7D4000F9C5B /* ProfileViewController.m */,
+				6DBC5E531DE3486000A05EAA /* MenuViewController.h */,
+				6DBC5E541DE3486000A05EAA /* MenuViewController.m */,
 				6DC4F8161DE2FA6A000F9C5B /* Main.storyboard */,
 				6DA5E9B41DDF323400F3D980 /* Assets.xcassets */,
 				6DA5E9B61DDF323400F3D980 /* LaunchScreen.storyboard */,
@@ -302,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC4F80C1DE2E7C7000F9C5B /* UploadViewController.m in Sources */,
+				6DBC5E551DE3486000A05EAA /* MenuViewController.m in Sources */,
 				6DA5E9AA1DDF323400F3D980 /* AppDelegate.m in Sources */,
 				6DC4F80F1DE2E7D4000F9C5B /* ProfileViewController.m in Sources */,
 				6D3F3FB11DE2DF1200D5AF99 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */,
