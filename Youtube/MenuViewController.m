@@ -12,6 +12,11 @@
 
 
 @property (strong, nonatomic) IBOutlet UIView *likeNavigationBar;
+@property (strong, nonatomic) IBOutlet UIImageView *logoutImage;
+@property (strong, nonatomic) IBOutlet UIImageView *settingsImage;
+@property (strong, nonatomic) IBOutlet UIImageView *historyImage;
+@property (strong, nonatomic) IBOutlet UIImageView *trendingImage;
+@property (strong, nonatomic) IBOutlet UIImageView *recentvideosImage;
 
 
 
